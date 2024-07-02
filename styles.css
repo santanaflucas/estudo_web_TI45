@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+MX:wght@100..400&display=swap');
+
+@font-face{
+    font-family: Ninja Naruto Regular;
+    src: url(fonts/naruto.ttf);
+}
+
+body{
+    background-image: url("https://sironaequine.org.uk/wp-content/uploads/2017/09/the-plain-color-green-wallpaper-2.jpg?w=900");
+    color:#313a2d;
+    background-color:#bdecb6;
+    font-family: verdana, 'Ninja Naruto Regular', Arial;
+    font-size:14px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: 
+    no-repeat;
+    cursor: url("https://upload.wikimedia.org/wikipedia/pt/8/8c/EC_Juventude.png?20190122152229");
+}
+h1{
+    color:#daa520;
+    font-family: 'Ninja Naruto Regular';
+    font-size:3em; /*tamanho da fonte */
+    text-align: center; /*alinhamento*/
+    text-decoration: underline;
+    text-shadow: 12px 2px 40px;
+}
+h6{
+    font-family: 'Playwrite MX';
+    color:#daa520;
+    background-color:whitesmoke;
+    font-size:2em; /*tamanho da fonte */
+    text-align: center; /*alinhamento*/
+    text-decoration: underline;
+    text-shadow: 12px 2px 40px;
+}
+p{
+    color:whitesmoke;
+    background-color:black;
+    opacity: .9;
+    font-family: roboto, sans-serif;
+    font-size:14px;
+    text-align: center;
+    line-height: 1.2em; /*entrelinha*/
+    font-weight: bold; /*negrito*/
+}
+h2,h3,h4,h5{
+    background-color:navy;    
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4412356.gif);
+    color:#daa520;
+}
