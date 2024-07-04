@@ -10,13 +10,14 @@
         header {
             background-color: #365563;
             display: flex;
-            justify-content: space-around;
+            align-items: center;
         }
 
         /* menu do site */
         nav {
             background-color: #253f4b;
-            height: 50px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         /* conteúdo principal do site */
@@ -46,15 +47,45 @@
 
         h1 {
             color: white;
-
-
+            size: 1000cm;
         }
 
         header img {
             height: 150px;
         }
 
-        
+        header h1 {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            /* justify-content: space-around;
+            height: 50px;
+            align-items: center; */
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            flex-grow: 1;
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 5px;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #253f4b;
+        }
     </style>
 </head>
 
@@ -64,10 +95,19 @@
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Eo_circle_blue_letter-b.svg/2048px-Eo_circle_blue_letter-b.svg.png" alt="Logo">
         
-        <h1>BTech</h1>
+        <h1>BGTech</h1>
         
     </header>
-    <nav></nav>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="https://youtu.be/IwY8PxbTUIg?si=pRRT_sp-u4IW6Ccv" target="_blank">Contato</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+
     <div class="row">
         <main></main>
         <aside></aside>
